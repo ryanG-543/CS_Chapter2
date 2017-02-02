@@ -9,6 +9,12 @@ namespace Carpet
     {
         static void Main(string[] args)
         {
+            int length = 25;
+            int width = 15;
+            int floorSpace = length * width;
+            double cost = floorSpace * 5.25;
+            Console.Write("The cost of carpeting the room is $");
+            Console.WriteLine(cost); 
         }
     }
 }
