@@ -2,3 +2,4 @@ C:\Users\eahscs\Documents\Visual Studio 2015\Projects\CS_Chapter2\CS_Chapter2\Eg
 C:\Users\eahscs\Documents\Visual Studio 2015\Projects\CS_Chapter2\CS_Chapter2\EggsInteractive\bin\Debug\EggsInteractive.pdb
 C:\Users\eahscs\Documents\Visual Studio 2015\Projects\CS_Chapter2\CS_Chapter2\EggsInteractive\obj\x86\Debug\EggsInteractive.exe
 C:\Users\eahscs\Documents\Visual Studio 2015\Projects\CS_Chapter2\CS_Chapter2\EggsInteractive\obj\x86\Debug\EggsInteractive.pdb
+C:\Users\eahscs\Documents\Visual Studio 2015\Projects\CS_Chapter2\CS_Chapter2\EggsInteractive\obj\x86\Debug\EggsInteractive.csprojResolveAssemblyReference.cache

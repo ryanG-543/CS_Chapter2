@@ -10,7 +10,7 @@ namespace EggsInteractive
         static void Main(string[] args)
         {
             string firstChicken, secondChicken, thirdChicken, fourthChicken, sum;
-            int first, second, third, fourth, eggsum;
+            int first, second, third, fourth, eggsum, dozens, eggsremainder;
             Console.WriteLine("How many eggs has the first chicken laid?");
             firstChicken = Console.ReadLine();
             first = Convert.ToInt32(firstChicken);
@@ -20,11 +20,13 @@ namespace EggsInteractive
             Console.WriteLine("Good. There are {0} eggs. How many eggs has the third chicken laid?", secondChicken);
             thirdChicken = Console.ReadLine();
             third = Convert.ToInt32(thirdChicken);
-            Console.WriteLine("Good. There are {0} eggs. How many egg shas the fourth chicken laid?");
+            Console.WriteLine("Good. There are {0} eggs. How many eggs has the fourth chicken laid?", thirdChicken);
             fourthChicken = Console.ReadLine();
             fourth = Convert.ToInt32(fourthChicken);
             eggsum = first + second + third + fourth;
-            Console.WriteLine("You have {0} eggs in total", eggsum);
+            dozens = eggsum / 12;
+            eggsremainder = eggsum % 12;
+            Console.WriteLine("There are {0} dozen and {1} eggs. In total, you have {2} eggs.", dozens, eggsremainder, eggsum);
         }
     }
 }
